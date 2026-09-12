@@ -1,16 +1,16 @@
+import Body from "../Components/Body/Body"
 import Footer from "../Components/Footer"
 import Header from "../Components/Header/Header"
-import Login from "../Components/Login"
-import "../App.css"
-function LoginPage() {
+
+function Dashboard() {
 
   return (
     <>
     <Header/>
-    <Login/>
+    <Body/>
     <Footer/>
     </>
   ) 
 }
 
-export default LoginPage
+export default Dashboard

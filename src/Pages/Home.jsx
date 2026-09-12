@@ -1,6 +1,7 @@
 import Banner from "../Components/Banner"
 import Footer from "../Components/Footer"
-import Header from "../Components/Header"
+import Header from "../Components/Header/Header"
+import Body from "../Components/Body/Body"
 import Produtos from "../Components/Produtos"
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <>
     <Header/>
     <Banner/>
+    <Body/>
     <Produtos/>
     <Footer/>
     </>

@@ -1,19 +1,20 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import LoginPage from './Pages/LoginPage';
-function App() {
+import Dashboard from './Pages/Dashboard';
+import './App.css';   // <-- ADICIONE ESTA LINHA se não tiver
 
+function App() {
   return (
     <>
-   <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<LoginPage />} />
-
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/Login" element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
